@@ -1,0 +1,118 @@
+doc-reg.css
+@import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
+html {
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+}
+* {
+  margin:0px;
+  padding:0px;
+}
+
+.form-box {
+width: 450px;
+top:-10%;
+left:50%;
+height: 700px;
+position: absolute;
+margin: 6% auto; 
+padding: 5px;
+background-color: #fff;
+overflow: hidden;
+box-shadow: 0  0 10px 1px #000001;
+}
+.button-box {
+width: 230px; 
+margin:35px auto;
+position: relative;
+
+border-radius: 30px;
+}
+.toggle-btn{
+padding: 10px 30px;
+cursor: pointer;
+
+border: 0;
+background: transparent;
+outline: transparent;
+position: relative;
+}
+#btn {
+  top:0;
+  left:0;
+  position: absolute;
+  width:110px;
+  height:100%;
+  background: linear-gradient(to right, #48cfcb, #0a677a);
+  border-radius: 20px;
+  transition: .2s;
+}
+.social-container {
+  margin: 5px auto;
+}
+.social-container a {
+  
+  border-radius: 50%;
+  
+  margin: 0 10px;
+  
+  width: 30px;
+  
+  cursor :pointer;
+  left:75%;
+}
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+  }
+.input-field {
+  width: 100%; 
+  padding: 10px 0;
+  margin: 5px 0; 
+  border-left: 0;
+  border-top: 0; 
+  border-right: 0;
+  outline: none; 
+  background: transparent;
+}
+.submit-btn{
+  top:400px;
+  width: 85%;
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(to right, #48cfcb, #0a677a);
+  border: 0;
+  outline:none;
+  border-radius:30px;
+}
+.chech-box{ 
+  margin: 30px 10px 30px 0; 
+}
+span{ 
+
+  color: #777;
+  font-size: 12px; 
+  bottom: -28px; 
+  position: relative; 
+}
+#login {
+  left:50px;
+}
+#register {
+  left:450px;
+}
